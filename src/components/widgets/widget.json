@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_widgets_widgets",
+  "info": {
+    "displayName": "widget",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_name": {
+      "type": "string"
+    },
+    "section_title": {
+      "type": "string"
+    },
+    "widget": {
+      "displayName": "widget_type",
+      "type": "component",
+      "repeatable": false,
+      "component": "widgets.widget-type"
+    }
+  }
+}
