@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_configs",
+  "info": {
+    "singularName": "page-config",
+    "pluralName": "page-configs",
+    "displayName": "page_config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "common_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.header"
+    }
+  }
+}
